@@ -25,6 +25,7 @@
       "@components/*": ["components/*"],
       "@contexts/*": ["contexts/*"],
       "@sections/*": ["sections/*"],
+      "@styles/*": ["styles/*"],
       "@types/*": ["types/*"]
     }
   },
