@@ -1,7 +1,5 @@
-import { Section } from '@common/styles';
-
 function Intro() {
-  return <Section>소개</Section>;
+  return <div className="flex w-full min-h-screen justify-center items-center">소개</div>;
 }
 
 export default Intro;

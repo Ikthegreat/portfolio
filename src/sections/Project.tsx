@@ -1,7 +1,5 @@
-import { Section } from '@common/styles';
-
 function Project() {
-  return <Section>프로젝트</Section>;
+  return <div className="flex w-full min-h-screen justify-center items-center">프로젝트</div>;
 }
 
 export default Project;

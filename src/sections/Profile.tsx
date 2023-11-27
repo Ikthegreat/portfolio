@@ -1,7 +1,5 @@
-import { Section } from '@common/styles';
-
 function Profile() {
-  return <Section>프로필</Section>;
+  return <div className="flex w-full min-h-screen justify-center items-center">프로필</div>;
 }
 
 export default Profile;
