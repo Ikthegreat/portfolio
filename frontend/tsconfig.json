@@ -21,12 +21,14 @@
     "baseUrl": "./src",
     "paths": {
       "@app/*": ["app/*"],
+      "@assets/*": ["assets/*"],
       "@common/*": ["common/*"],
       "@components/*": ["components/*"],
       "@contexts/*": ["contexts/*"],
       "@sections/*": ["sections/*"],
       "@styles/*": ["styles/*"],
-      "@types/*": ["types/*"]
+      "@interfaces/*": ["interfaces/*"],
+      "@utils/*": ["utils/*"]
     }
   },
   "include": [
@@ -36,7 +38,7 @@
     ".next/types/**/*.ts",
     "next.config.js",
     "postcss.config.js",
-    "tailwind.config.js",
+    "tailwind.config.js"
   ],
   "exclude": []
 }
