@@ -1,5 +1,4 @@
 import InfoCard from '@components/InfoCard';
-import { INFOCARD } from '@contexts/index';
 
 function Profile() {
   return (
